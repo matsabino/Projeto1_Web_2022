@@ -1,0 +1,123 @@
+*{font-family: 'Antenna', sans-serif}
+
+.heading1 {
+    font-size: 40px;
+    line-height: 43px;
+    margin: 0px 0px 10px;
+    font-family: 'Antenna', sans-serif;
+}
+
+.text-span-138 {
+    color: #e82c4f;
+    font-family: 'Antenna';
+}
+
+.text-span-139 {
+    color: #e82c4f;
+    font-family: 'Antenna';
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.h1-small {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    font-size: 32px;
+    line-height: 120%;
+    font-family: 'Antenna';
+}
+@media screen and (max-width: 479px)
+.padding-mobile {
+    position: relative;
+    padding-top: 10px;
+}
+p {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #273a50;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.button-left-red {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: auto;
+    min-width: 150px;
+    padding: 15px 30px;
+    clear: left;
+    border-radius: 4px;
+    background-color: #e82c4f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.w-nav-brand {
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #333333;
+}
+.image-2 {
+    margin-top: 5px;
+}
+
+.heading3 {
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 29px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    left: auto;
+    top: auto;
+    right: 2%;
+    bottom: 2%;
+    z-index: 999;
+    width: 56px;
+    height: 56px;
+    border-radius: 80px;
+    background-image: url("https://assets-global.website-files.com/5bce158d39ce88af8aa305f6/62fa6ed27661e751ad79df34_whatsapp.svg");
+    background-position: 50% 50%;
+    background-size: 56px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    box-shadow: 3px 3px 8px 0 rgb(0 0 0 / 24%);
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+.div-center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    clear: left;
+    text-align: left;
+}
+.div-center.heading3 {
+    font-size: 23px;
+}
+.heading3.div-center {
+    margin-top: 30px;
+    -webkit-box-align: center;
+    align-items: center;
+}
